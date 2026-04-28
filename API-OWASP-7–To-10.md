@@ -10,7 +10,7 @@
 
 ## API7:2023 — Server Side Request Forgery
 
-> See dedicated write-up: [API_SSRF_Enterprise.md](./API_SSRF_Enterprise.md)
+> See dedicated write-up: [API-SSRF.md](./API-SSRF.md)
 
 SSRF has its own dedicated write-up due to depth of coverage required.
 
