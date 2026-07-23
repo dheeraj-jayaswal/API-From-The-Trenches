@@ -1,10 +1,10 @@
-# API Security — Enterprise Penetration Testing Series
-
 <div align="center">
 
-[![Author](https://img.shields.io/badge/Author-Dheeraj%20Kumar%20Jayaswal-2E6DA4?style=for-the-badge&logo=person&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
+# API Security — Enterprise Penetration Testing Series
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Experience](https://img.shields.io/badge/Experience-5%2B%20Years%20Enterprise%20AppSec-FF6B35?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
-[![Role](https://img.shields.io/badge/Role-Technology%20Lead%20%E2%80%93%20Offensive%20Security-2ECC71?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
+[![Role](https://img.shields.io/badge/Role-Technology%20Lead%20--%20Offensive%20Security-2ECC71?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Org](https://img.shields.io/badge/Infosys%20Limited-Pune%2C%20India-0078D6?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 
 </div>
@@ -13,13 +13,24 @@
 
 ## 🎯 What This Series Is
 
-This is not a beginner's guide to what APIs are. This is a field-tested, enterprise-grade reference documenting how I test API security in real engagements — at Infosys, across BFSI, healthcare, retail, and technology clients.
+This is not a beginner's guide to what APIs are. This is a field-tested, enterprise-grade reference documenting how I test API security in real engagements at Infosys, across regulated and high-stakes enterprise sectors.
 
 Every write-up in this series reflects an attack pattern I have confirmed in production enterprise environments. Every report template reflects the format I submit to clients. Every tool command is one I run in real assessments.
 
 **The gap this series fills:**
 
-Most API security resources cover the theory. This series covers the practice — specifically the practice in enterprise environments where the stakes are GDPR compliance, PCI-DSS certification, and real user data at scale.
+Most API security resources cover the theory. This series covers the practice — specifically the practice in enterprise environments where the stakes are regulatory compliance, contractual data-protection obligations, and real user data at scale.
+
+---
+
+## 🧭 How This Fits With My Other Repos
+
+| Repo | What it's for |
+|---|---|
+| **API-From-The-Trenches** *(this repo)* | The deep, technical API security reference — full methodology, OWASP API Top 10 mapping, tool workflows, signature findings |
+| [From-Dev-To-Attacker](https://github.com/dheeraj-jayaswal/From-Dev-To-Attacker)'s `api-security/` folder | Shorter "why this vulnerability exists" companion pieces from a developer's lens, with enterprise domain-impact framing — read those first for intuition, come here for full depth |
+| [Bug-Bounty-Hunting-Companion](https://github.com/dheeraj-jayaswal/Bug-Bounty-Hunting-Companion) | Real disclosed HackerOne reports turned into reproducible checklists |
+| [AppSec-From-The-Trenches](https://github.com/dheeraj-jayaswal/AppSec-From-The-Trenches) | Broader enterprise AppSec knowledge base beyond just APIs |
 
 ---
 
@@ -57,13 +68,33 @@ What this means for enterprise testing:
 
 ### 🔷 Foundation
 
-| # | Topic | Description | Key Enterprise Findings |
+| # | Topic | File | Key Enterprise Findings |
 |---|---|---|---|
-| 01 | [REST API Security](./API_REST_Security_Enterprise.md) | HTTP methods, status codes, BOLA, mass assignment, injection, rate limiting | BOLA across all HTTP methods, NoSQL injection, 422-as-schema-leak |
-| 02 | [API Authentication Methods](./API_Auth_Methods_Enterprise.md) | JWT (5 attacks), API keys, OAuth 2.0, Basic Auth, session cookies | JWT weak secret cracking, OAuth state bypass, RS256→HS256 confusion |
-| 03 | [GraphQL Security](./API_GraphQL_Enterprise.md) | Introspection, BOLA, batching, nesting DoS, SSRF via mutations | Unauthenticated introspection, batching rate-limit bypass, field-level BOLA |
-| 04 | [API Reconnaissance](./API_Recon_Enterprise.md) | Source map analysis, version enumeration, mobile API discovery, gateway bypass | Source map RCE chain, old API version auth bypass, hardcoded secrets in JS |
-| 05 | [Postman for API Testing](./API_Postman_Enterprise.md) | Spec import, environment management, test scripts, CI/CD integration | Automated BOLA sweep, dynamic token refresh, Newman pipeline integration |
+| 01 | REST API Security | [Rest-API.md](Rest-API.md) | BOLA across all HTTP methods, NoSQL injection, schema-leak via error codes |
+| 02 | API Authentication Methods | [AUTH-Methods.md](AUTH-Methods.md) | JWT weak secret cracking, OAuth state bypass, RS256→HS256 confusion |
+| 03 | GraphQL Security | [GraphQL.md](GraphQL.md) | Unauthenticated introspection, batching rate-limit bypass, field-level BOLA |
+| 04 | API Reconnaissance | [API-RECON.md](API-RECON.md) | Source map RCE chain, old API version auth bypass, hardcoded secrets in JS |
+| 05 | Postman for API Testing | [POSTMAN.md](POSTMAN.md) | Automated BOLA sweep, dynamic token refresh, Newman pipeline integration |
+
+### 🔷 OWASP API Top 10 & Access Control
+
+| # | Topic | File |
+|---|---|---|
+| 06 | Broken Object Level Authorization | [Broken-Object-Level-Authorization.md](Broken-Object-Level-Authorization.md) |
+| 07 | Broken Authentication | [API-Broken-Authentication.md](API-Broken-Authentication.md) |
+| 08 | Mass Assignment | [Mass-Assignment.md](Mass-Assignment.md) |
+| 09 | Rate Limiting | [API-Rate-Limiting.md](API-Rate-Limiting.md) |
+| 10 | Broken Function Level Authorization | [Broken-Function-Level-Authorization.md](Broken-Function-Level-Authorization.md) |
+| 11 | SSRF via API Mutations | [API-SSRF.md](API-SSRF.md) |
+| 12 | API Versioning Security | [API-Versioning-Security.md](API-Versioning-Security.md) |
+| 13 | OpenAPI / Swagger Security | [OpenAPI-Swagger-Security.md](OpenAPI-Swagger-Security.md) |
+| 14 | API7–API10 Coverage | [API-OWASP-7–To-10.md](API-OWASP-7–To-10.md) |
+
+### 🔷 Tooling
+
+| # | Topic | File |
+|---|---|---|
+| 15 | Burp Suite Pro for API Testing | [Burp-Suite-Pro-for-API-Security-Testing.md](Burp-Suite-Pro-for-API-Security-Testing.md) |
 
 ---
 
@@ -85,8 +116,6 @@ What this means for enterprise testing:
 ---
 
 ## 🔑 My Most Impactful Enterprise API Findings (Patterns)
-
-The vulnerability classes I find most consistently across enterprise API engagements:
 
 ```
 1. BOLA on all HTTP methods — not just GET
@@ -128,14 +157,14 @@ The vulnerability classes I find most consistently across enterprise API engagem
 | Tool | Primary Role | Coverage |
 |---|---|---|
 | **Burp Suite Pro** | Core manual testing, request manipulation | All write-ups |
-| **Postman** | Structured collection testing, CI/CD integration | Day 05 |
-| **ffuf** | API endpoint and parameter fuzzing | Day 04 |
-| **Nuclei** | Automated CVE and misconfiguration scanning | OSINT phase |
+| **Postman** | Structured collection testing, CI/CD integration | Postman guide |
+| **ffuf** | API endpoint and parameter fuzzing | Recon |
+| **Nuclei** | Automated CVE and misconfiguration scanning | Recon phase |
 | **cURL** | Quick PoC verification, report evidence | All write-ups |
-| **jwt.io** | JWT inspection and decoding | Day 02 |
-| **Hashcat** | JWT secret cracking (-m 16500) | Day 02 |
-| **InQL (Burp)** | GraphQL schema visualisation and test generation | Day 03 |
-| **Autorize (Burp)** | Automated BOLA/IDOR detection | Day 01 |
+| **jwt.io** | JWT inspection and decoding | Auth Methods |
+| **Hashcat** | JWT secret cracking (-m 16500) | Auth Methods |
+| **InQL (Burp)** | GraphQL schema visualisation and test generation | GraphQL |
+| **Autorize (Burp)** | Automated BOLA/IDOR detection | BOLA |
 
 ---
 
@@ -180,50 +209,6 @@ Phase 6: DOCUMENTATION & REPORTING
 
 ---
 
-## 📋 Quick Reference — API Testing Checklist
-
-```
-DISCOVERY
-☐ Swagger/OpenAPI spec found and imported to Postman?
-☐ GraphQL introspection accessible (with/without auth)?
-☐ JavaScript bundle analysed for undocumented endpoints?
-☐ API versions enumerated: v1, v2, beta, internal, mobile?
-☐ Source maps accessible (.js.map files)?
-
-AUTHENTICATION
-☐ All endpoints tested without Authorization header?
-☐ JWT algorithm: alg:none, weak secret, RS256→HS256?
-☐ Token replay after logout?
-☐ OAuth state parameter present and validated?
-☐ API keys found in JS bundles?
-
-BOLA / AUTHORIZATION
-☐ Two test accounts configured?
-☐ Autorize running with victim token?
-☐ GET, PUT, DELETE, PATCH all tested with victim IDs?
-☐ Admin-prefixed queries/mutations tested with standard token?
-☐ Mass assignment: role, is_admin, plan fields injected?
-
-DATA EXPOSURE
-☐ API response compared against UI display?
-☐ Hidden fields documented: password_hash, salary, national_id?
-☐ Export endpoints tested for bulk data access?
-
-INJECTION & RATE LIMITING
-☐ SQLi in all string parameters?
-☐ NoSQL injection in JSON body?
-☐ 50 rapid requests to auth endpoint — 429 returned?
-☐ SSTI: {{7*7}}, ${7*7} in template fields?
-
-GRAPHQL SPECIFIC
-☐ Schema download attempted?
-☐ Admin mutations tested with standard token?
-☐ Batching: 50 queries in one request?
-☐ SSRF in URL-accepting mutations?
-```
-
----
-
 ## 🏢 Enterprise vs Bug Bounty — The Key Differences
 
 ```
@@ -239,9 +224,6 @@ What enterprise API testing adds:
   ✓ Secure code fixes in the application's language
   ✓ Postman collection delivered as remediation aid
   ✓ Retest after fixes (closing the loop)
-
-The methodology is what separates a professional engagement
-from a skilled individual doing their best ad hoc.
 ```
 
 ---
@@ -252,26 +234,32 @@ from a skilled individual doing their best ad hoc.
 
 I started as a full-stack developer — ASP.NET, SQL Server, JavaScript. That developer background is my biggest edge in API security testing. I understand why APIs are built the way they are, which shortcuts are taken under deadline pressure, and where access control checks get missed when teams are moving fast.
 
-**Domain experience:** BFSI · Healthcare · Retail · E-commerce · Freight Logistics · Education
+**Domain experience:** Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
 
 **Certifications:**
+
 - CEH — EC-Council (2021)
-- AWS Certified Solutions Architect (2022)
+- AWS Certified Solutions Architect – Associate (2022)
+- AWS Certified Cloud Practitioner (2022)
 - OSCP — OffSec (In Progress 2025-2026)
 - IIT Kanpur Executive Cert in Cyber Security (In Progress 2025-2026)
 
 ---
 
+## 📄 License
+
+This content is licensed under **[CC BY 4.0](LICENSE.md)**. You're welcome to
+reuse or adapt any of these write-ups — just give clear attribution to
+**Dheeraj Kumar Jayaswal** with a link back to this repository. See
+[LICENSE.md](LICENSE.md) for the full terms.
+
+---
+
 ## 🔗 Connect
 
-<div align="center">
+[LinkedIn](https://linkedin.com/in/dheerajkumarjayaswal) · [Email](mailto:jaiswal.dheeraj123@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
-[![Email](https://img.shields.io/badge/Email-jaiswal.dheeraj123%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaiswal.dheeraj123@gmail.com)
-
-*Part of [AppSec From The Trenches](../README.md) — Real notes from 5+ years of enterprise penetration testing.*
-
-</div>
+*Open to consulting, collaboration, and security discussions.*
 
 ---
 
