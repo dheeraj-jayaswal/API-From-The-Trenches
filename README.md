@@ -88,7 +88,7 @@ What this means for enterprise testing:
 | 11 | SSRF via API Mutations | [API-SSRF.md](API-SSRF.md) |
 | 12 | API Versioning Security | [API-Versioning-Security.md](API-Versioning-Security.md) |
 | 13 | OpenAPI / Swagger Security | [OpenAPI-Swagger-Security.md](OpenAPI-Swagger-Security.md) |
-| 14 | API7–API10 Coverage | [API-OWASP-7–To-10.md](API-OWASP-7–To-10.md) |
+| 14 | API7–API10 Coverage | [API-OWASP-7-to-10.md](API-OWASP-7-to-10.md) |
 
 ### 🔷 Tooling
 
