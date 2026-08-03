@@ -298,7 +298,6 @@ password
 changeme
 jwt_secret
 company
-infosys
 mysecret
 1234567890
 your-256-bit-secret
