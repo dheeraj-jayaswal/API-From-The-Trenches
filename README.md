@@ -13,7 +13,7 @@
 
 ## 🎯 What This Series Is
 
-This is not a beginner's guide to what APIs are. This is a field-tested, enterprise-grade reference documenting how I test API security in real engagements at Infosys, across regulated and high-stakes enterprise sectors.
+This is not a beginner's guide to what APIs are. This is a field-tested, enterprise-grade reference documenting how I test API security in real engagements, across regulated and high-stakes enterprise sectors.
 
 Every write-up in this series reflects an attack pattern I have confirmed in production enterprise environments. Every report template reflects the format I submit to clients. Every tool command is one I run in real assessments.
 
