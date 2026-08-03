@@ -117,7 +117,6 @@ jwt_secret
 jwttoken
 myapp
 company
-infosys
 1234567890
 your-256-bit-secret
 supersecret
