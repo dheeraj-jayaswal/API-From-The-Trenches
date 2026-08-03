@@ -4,7 +4,7 @@
 >
 > **Category:** API Security — OWASP API Security Top 10
 >
-> **Context:** REST API penetration testing is my primary day-to-day work at Infosys. Every modern enterprise application I test is API-first — the browser renders a JavaScript shell, and every piece of business logic, every data access decision, every access control check happens in the API layer. This write-up reflects five years of finding vulnerabilities in enterprise REST APIs across BFSI, healthcare, retail, and technology sectors.
+> **Context:** REST API penetration testing is my primary day-to-day work. Every modern enterprise application I test is API-first — the browser renders a JavaScript shell, and every piece of business logic, every data access decision, every access control check happens in the API layer. This write-up reflects five years of finding vulnerabilities in enterprise REST APIs across BFSI, healthcare, retail, and technology sectors.
 
 ---
 
