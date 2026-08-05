@@ -236,14 +236,17 @@ I started as a full-stack developer — ASP.NET, SQL Server, JavaScript. That de
 
 **Domain experience:** Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
 
-**Certifications:**
+## 🏅 Certifications
 
-- CEH — EC-Council (2021)
-- AWS Certified Solutions Architect – Associate (2022)
-- AWS Certified Cloud Practitioner (2022)
-- OSCP — OffSec (In Progress 2025-2026)
-- IIT Kanpur Executive Cert in Cyber Security (In Progress 2025-2026)
+| Certification | Issuer | Status |
+|---|---|---|
+| Certified Ethical Hacker (CEH) | EC-Council | ✅ 2021 |
+| AWS Certified Solutions Architect – Associate | Amazon Web Services | ✅ 2022 |
+| AWS Certified Cloud Practitioner | Amazon Web Services | ✅ 2022 |
+| Executive Certificate in Cyber Security | IIT Kanpur | ✅ 2026 |
+| OSWE — OffSec Web Expert (OSCE3 track) | 🔄 In Progress |
 
+**Future direction — Red Teaming:** OSCP → CRTO → OSEP, CRTP, CRTL, CRTE
 ---
 
 ## 📄 License
