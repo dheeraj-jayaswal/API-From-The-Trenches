@@ -1,10 +1,10 @@
 # REST API Security — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** API Security — OWASP API Security Top 10
 >
-> **Context:** REST API penetration testing is my primary day-to-day work. Every modern enterprise application I test is API-first — the browser renders a JavaScript shell, and every piece of business logic, every data access decision, every access control check happens in the API layer. This write-up reflects five years of finding vulnerabilities in enterprise REST APIs across BFSI, healthcare, retail, and technology sectors.
+> **Context:** REST API penetration testing is my primary day-to-day work. Every modern enterprise application I test is API-first — the browser renders a JavaScript shell, and every piece of business logic, every data access decision, every access control check happens in the API layer. This write-up reflects six years of finding vulnerabilities in enterprise REST APIs across BFSI, healthcare, retail, and technology sectors.
 
 ---
 
@@ -469,7 +469,7 @@ Remediation:
 
 ---
 
-## 🧭 Key Takeaways From 5+ Years of Enterprise API Testing
+## 🧭 Key Takeaways From 6+ Years of Enterprise API Testing
 
 **1. BOLA is the most common Critical finding in enterprise APIs — always test it systematically.**
 Every API endpoint that returns or modifies a resource with an ID is a potential BOLA target. Two test accounts, swap the IDs, check the response. Burp Autorize automates this across the entire application. It is the first thing I configure on every engagement.
@@ -496,7 +496,7 @@ The developer returned the full database object. The frontend filters what to di
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](../README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](../README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 

@@ -1,6 +1,6 @@
 # Burp Suite Pro for API Security Testing — Enterprise Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** API Security — Tooling & Workflow
 >

@@ -1,6 +1,6 @@
 # SSRF in APIs — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** API Security — OWASP API7:2023 Server Side Request Forgery
 >
