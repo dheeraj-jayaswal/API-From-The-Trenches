@@ -3,7 +3,7 @@
 # API Security — Enterprise Penetration Testing Series
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
-[![Experience](https://img.shields.io/badge/Experience-5%2B%20Years%20Enterprise%20AppSec-FF6B35?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
+[![Experience](https://img.shields.io/badge/Experience-6%2B%20Years%20Enterprise%20AppSec-FF6B35?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Role](https://img.shields.io/badge/Role-Technology%20Lead%20--%20Offensive%20Security-2ECC71?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 [![Org](https://img.shields.io/badge/Infosys%20Limited-Pune%2C%20India-0078D6?style=for-the-badge)](https://linkedin.com/in/dheerajkumarjayaswal)
 
