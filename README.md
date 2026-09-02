@@ -230,7 +230,7 @@ What enterprise API testing adds:
 
 ## 🎓 My Professional Background
 
-**15+ years in IT | 5+ years in offensive security | Infosys Limited**
+**15+ years in IT | 6+ years in offensive security | Infosys Limited**
 
 I started as a full-stack developer — ASP.NET, SQL Server, JavaScript. That developer background is my biggest edge in API security testing. I understand why APIs are built the way they are, which shortcuts are taken under deadline pressure, and where access control checks get missed when teams are moving fast.
 

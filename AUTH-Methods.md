@@ -1,10 +1,10 @@
 # API Authentication Methods — Enterprise Penetration Testing Field Notes
 
-> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 5+ Years Enterprise AppSec
+> **Author:** Dheeraj Kumar Jayaswal — Senior Penetration Tester | 6+ Years Enterprise AppSec
 >
 > **Category:** API Security — Authentication & Token Testing
 >
-> **Context:** API authentication is the single most consequential security control in any enterprise application. Break the authentication mechanism and you own the application — without needing to exploit a single injection vulnerability. In five years of enterprise API testing, I have found weak JWT secrets in production, OAuth state bypass vulnerabilities in SSO integrations, API keys hardcoded in mobile app bundles, and session tokens that survive logout indefinitely. This document covers every authentication method I encounter in enterprise APIs and how I test each one.
+> **Context:** API authentication is the single most consequential security control in any enterprise application. Break the authentication mechanism and you own the application — without needing to exploit a single injection vulnerability. In six years of enterprise API testing, I have found weak JWT secrets in production, OAuth state bypass vulnerabilities in SSO integrations, API keys hardcoded in mobile app bundles, and session tokens that survive logout indefinitely. This document covers every authentication method I encounter in enterprise APIs and how I test each one.
 
 ---
 
@@ -469,7 +469,7 @@ Developers hardcode API keys during development and ship them to production in t
 ---
 <div align="center">
 
-*Part of [AppSec From The Trenches](../README.md) — Real notes from 5+ years of enterprise penetration testing.*
+*Part of [AppSec From The Trenches](../README.md) — Real notes from 6+ years of enterprise penetration testing.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dheeraj%20Kumar%20Jayaswal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkumarjayaswal)
 
