@@ -256,12 +256,15 @@ I approach every engagement in three phases:
 
 ## 👤 About Me
 
-- **Name** — Dheeraj Kumar Jayaswal
-- **Role** — Principal Penetration Tester, VikingCloud (previously Technology Lead – Offensive Security, Infosys Limited)
-- **Focus** — Web Application & API Penetration Testing
-- **Experience** — 16+ years in IT · 9+ years in Offensive Security
-- **Edge** — Former full-stack developer (ASP.NET / SQL Server) — I think like a developer, attack like a hacker
-- **Domains** — Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
+- 👤 **Name** — Dheeraj Kumar Jayaswal
+- 🌍 **Location** — Dublin, County Dublin, Ireland
+- 💼 **Role** — Principal Penetration Testing Consultant | VikingCloud (previously Technology Lead – Offensive Security, Infosys Limited)
+- 🎯 **Primary Focus** — Web Application & API Security — Offensive Security Consulting
+- 🏆 **Experience** — 16+ Years in IT | 9+ Years in Offensive Security
+- 🔎 **Edge** — Started as a full-stack developer (ASP.NET / SQL Server) — I think like a developer and attack like a hacker
+- 🎓 **Pursuing** — OSWE — OffSec Web Expert (OSCE3 track)
+- 🏢 **Domains** — Income Tax · Banking · Retail · E-commerce · Freight Logistics · Education
+- 📝 **Sharing** — Enterprise pentest field notes, methodology, and practical write-ups from real-world engagements
 
 ---
 
